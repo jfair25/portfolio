@@ -1,0 +1,79 @@
+/*
+* {
+    outline: 2px solid red;
+}
+*/
+
+#game {
+    display: flex;
+    justify-content: left;
+
+}
+
+#container {
+    flex-direction: column;
+}
+
+#scoreBoard {
+    display: flex;
+}
+
+#compScore,
+#userScore,
+#tieScore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 16px;
+}
+
+#cScore,
+#uScore,
+#tScore {
+    margin: 16px;
+    text-align: center;
+    font-weight: bolder;
+    width: 25%;
+    height: auto;
+    background-color: darksalmon;
+    border-radius: 10%;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-top: 16px;
+}
+
+button {
+    padding: 16px;
+    margin: 32px;
+    font-size: 16px;
+    outline: 2px solid black;
+    border-radius: 50%;
+}
+
+#action {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    height: 300px;
+    overflow-x: hidden;
+    outline: 2px solid black;
+
+
+}
+
+#logBanner {
+    justify-content: flex-start;
+    padding: 8px;
+    margin: 0px;
+    background-color: rgb(194, 189, 189);
+    outline: 2px solid black;
+    font-size: 20px;
+}
