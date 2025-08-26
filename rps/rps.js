@@ -112,10 +112,18 @@ function playGame(choice) {
     playRound(humanSelection, computerSelection);
 
 
-    // write a function called playGame that calls function playRound 5 times.
-    // move your playRound function and score variable so they are declared inside of the playGame function
-    // play 5 rounds by calling playRound 5 times
+
+}
 
 
+function clearLog() {
+    const uScore = document.querySelector("#uScore")
+    const cScore = document.querySelector("#cScore")
 
+    uScore.setAttribute("placeholder", 0);
+    cScore.setAttribute("placeholder", 0);
+    tScore.setAttribute("placeholder", 0);
+
+
+    action.replaceChildren();
 }
