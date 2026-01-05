@@ -13,7 +13,7 @@ function playGame(choice) {
     const action = document.querySelector("#action");
     const content = document.createElement("div");
     content.classList.add("content");
-    content.setAttribute("style", "display: flex; flex-direction: column-reverse; padding-left: 8px; padding-right: 8px;");
+    content.setAttribute("style", "display: flex; flex-direction: column-reverse; margin: 0px; padding: 16px;");
 
     /* write a function  called getComputerChoice that randomly gernerates the computer choice and returns the choice of either rock paper or scissor 
     use the Math.random function to generate a random number

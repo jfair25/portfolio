@@ -1,13 +1,13 @@
 
 #game {
     display: flex;
-    justify-content: center;
-
-
+    justify-content: space-between;
+    width: 100%;
 }
 
 #container {
     flex-direction: column;
+    width: 75%;
 }
 
 #scoreBoard {
@@ -42,15 +42,17 @@ label {
 
 #btns {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 8px;
+    padding-right: 180px;
     margin-top: 16px;
+    margin: 100px;
 }
 
 button {
     padding: 8px;
     border-radius: 8px;
-    margin: 16px;
+    margin-top: 16px;
 }
 button:hover{
 background-color: orange;
@@ -60,7 +62,9 @@ background-color: orange;
 #action {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    padding: 0px;
+    margin: 0px;
+    height: 550px;
     overflow-x: hidden;
     outline: 2px solid black;
 
@@ -84,10 +88,10 @@ background-color: orange;
 }
 
 #clearBtn {
+    display: flex;
     margin: 0px;
     padding: 0px;
     outline: 2px solid black;
-    display: flex;
-    justify-content: start;
+
 
 }

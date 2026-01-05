@@ -1,0 +1,38 @@
+* {
+    outline: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    height: 100px;
+}
+
+.spaceRight,
+.spaceLeft {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.main {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 50%;
+}
+
+.footer {
+    display: flex;
+    height: 200px;
+}
