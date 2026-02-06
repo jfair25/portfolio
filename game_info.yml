@@ -1,0 +1,13 @@
+---
+game:
+  word_selected: admitte
+  correct_guesses:
+  - "-"
+  - "-"
+  - "-"
+  - "-"
+  - "-"
+  - "-"
+  - "-"
+  - "-"
+  wrong_guesses: []
